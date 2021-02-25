@@ -17,7 +17,7 @@ RATE_OF_COOLING=0.9;
 INTIAL_TEMP=10000.00;
 MIN_TEMP= 0.00001;
 ```
--Formula's used in code
+- Formula's used in code
 ```sh
 Probability Function=exp(currentDistance-AdjacentDistatnce)/Temperature;
 New Temperature=OldTemperature*(1-RATE_OF_COOLING);
