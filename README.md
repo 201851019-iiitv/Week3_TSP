@@ -9,7 +9,23 @@ relatives are about to visit you next week. Use Simulated Annealing to plan a co
 of Rajasthan. It is reasonable to assume that the cost of travelling between two locations is
 proportional to the distance between them.
 
-## Solution objective:
+## Solution:
 
-In the code I calculated
+ - Some constant data I used in the code 
+```sh
+RATE_OF_COOLING=0.9;
+INTIAL_TEMP=10000.00;
+MIN_TEMP= 0.00001;
+```
+-Formula's used in code
+```sh
+Probability Function=exp(currentDistance-AdjacentDistatnce)/Temperature;
+New Temperature=OldTemperature*(1-RATE_OF_COOLING);
+```
 
+## Run Process:
+```sh
+ First clone the repo and save in your local machine at appropriate folder.
+ Open folder in ecllipse IDE.
+ run the Driver.java file.
+```
