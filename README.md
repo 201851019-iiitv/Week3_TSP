@@ -29,3 +29,5 @@ New Temperature=OldTemperature*(1-RATE_OF_COOLING);
  Open folder in ecllipse IDE.
  run the Driver.java file.
 ```
+## Output:
+![TSPRJ](https://user-images.githubusercontent.com/48892208/109255132-617c8c80-7819-11eb-843b-0e35a99fb01a.gif)
